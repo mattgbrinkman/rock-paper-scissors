@@ -99,7 +99,9 @@ def start_game():
             game_is_active = False          
             return game_is_active
 
-start_game()
+
+if __name__ == '__main__':
+    start_game()
 
 
 
